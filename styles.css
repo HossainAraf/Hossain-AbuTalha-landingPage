@@ -15,6 +15,12 @@ body {
 	padding: 0 45px;
 
 }
+.logo > img {
+	width: 80px;
+	height: 60px;
+	max-width: 150px;
+	margin-left: 20px;
+}
 
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
