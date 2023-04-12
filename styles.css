@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #8fe548;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+#header {
+	color : red;
+}
+#nav-bar{
+	display: inline-block;
+	float: right;
+	padding: 0 45px;
+
+}
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	body {
+		margin-top: 0;
+		padding: 2px;
+		background-color: #8fe548;
+		font-family: 'Times New Roman', Times, serif;
+
+	}
+	
+
+}
